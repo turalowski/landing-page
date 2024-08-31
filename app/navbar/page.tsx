@@ -7,7 +7,10 @@ import { cn } from '@/lib/utils';
 const Navbar = () => {
   return (
     <div
-      className={cn('flex justify-between items-center', 'px-10 border-b-2')}
+      className={cn(
+        'flex justify-between items-center',
+        'px-5 py-5 border-b-2'
+      )}
     >
       <Logo />
       <NavigationBar />
