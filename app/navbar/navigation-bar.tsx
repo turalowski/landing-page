@@ -56,7 +56,7 @@ const components: { title: string; href: string; description: string }[] = [
 function NavigationBar() {
   return (
     <NavigationMenu>
-      <NavigationMenuList>
+      <NavigationMenuList className="hidden md:flex">
         <NavigationMenuItem>
           <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
           <NavigationMenuContent>
