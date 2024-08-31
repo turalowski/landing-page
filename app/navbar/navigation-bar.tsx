@@ -69,22 +69,22 @@ function NavigationBar() {
                   >
                     <Logo />
                     <div className="mb-2 mt-4 text-lg font-medium">
-                      shadcn/ui
+                      Prospect ERP
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
-                      Beautifully designed components built with Radix UI and
-                      Tailwind CSS.
+                      ERP platform to centralize business of small and medium
+                      companies
                     </p>
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/docs" title="Introduction">
+              <ListItem title="Introduction">
                 Re-usable components built using Radix UI and Tailwind CSS.
               </ListItem>
-              <ListItem href="/docs/installation" title="Installation">
+              <ListItem title="Demo">
                 How to install dependencies and structure your app.
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Typography">
+              <ListItem title="Community">
                 Styles for headings, paragraphs, lists...etc
               </ListItem>
             </ul>
